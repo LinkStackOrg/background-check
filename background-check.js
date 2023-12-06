@@ -1,9 +1,10 @@
 
 /*
  * BackgroundCheck
- * http://kennethcachia.com/background-check
- *
- * v1.2.2
+ * https://linkstack.org/
+ * Source: Kenneth Cachia
+ * 
+ * v1.3.0
  */
 
 (function (root, factory) {
