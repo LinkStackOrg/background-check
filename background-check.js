@@ -208,7 +208,7 @@
     canvas = document.createElement('canvas');
 
     if (canvas && canvas.getContext) {
-      context = canvas.getContext('2d');
+      context = canvas.getContext('2d', { willReadFrequently: true });
       supported = true;
     } else {
       supported = false;
